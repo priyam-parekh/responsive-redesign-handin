@@ -833,3 +833,94 @@ h1.lessons-title {
     transform: translateY(0px);
   }
 }
+
+/* Updated printing from https://www.tutorialspoint.com/css/css_printing.htm */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  html,
+  body {
+    height: auto;
+    overflow: visible !important;
+    background-color: white !important;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .text-content,
+  .portfolio-content,
+  .interface-content {
+    opacity: 1 !important;
+    transform: none !important;
+    min-height: auto;
+    padding: 20px;
+    page-break-inside: avoid;
+  }
+
+  .text-mask,
+  .intro-title,
+  .interface-title {
+    color: black !important;
+    background: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .context-description,
+  .interface-description {
+    color: black !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .website-image,
+  .interface-sketch,
+  .storyboard-image {
+    max-width: 100% !important;
+    height: auto !important;
+    page-break-inside: avoid;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .problems-table {
+    page-break-inside: avoid;
+    border-collapse: collapse;
+  }
+
+  .problems-table th,
+  .problems-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    color: black !important;
+  }
+
+  .website-images-container {
+    page-break-inside: avoid;
+  }
+
+  .image-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    page-break-inside: avoid;
+  }
+
+  .point-down-emoji,
+  .link-emoji {
+    display: none !important;
+  }
+
+  .interface-section,
+  .portfolio-content,
+  .interface-content {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
