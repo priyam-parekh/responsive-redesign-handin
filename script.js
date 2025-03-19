@@ -4,7 +4,7 @@ window.addEventListener("scroll", () => {
   );
   const textContent = document.querySelector(".text-content");
   const maskedTexts = document.querySelectorAll(
-    ".text-mask, .context-title, .interface-title, .interview-title, .personas-title, .storyboard-title, .lessons-title"
+    ".text-mask, .intro-title, .interface-title, .interview-title, .personas-title, .storyboard-title, .lessons-title"
   );
 
   const scrolled = window.scrollY;
@@ -69,12 +69,12 @@ const contentObserver = new IntersectionObserver(
 
 document.addEventListener("DOMContentLoaded", () => {
   const headers = document.querySelectorAll(
-    ".context-title, .interface-title, .interview-title, .personas-title, .storyboard-title, .lessons-title"
+    ".intro-title, .interface-title, .interview-title, .personas-title, .storyboard-title, .lessons-title"
   );
   headers.forEach((header) => headerObserver.observe(header));
 
   const contentElements = document.querySelectorAll(
-    ".context-description, .interface-description, .interview-description, .personas-description, .storyboard-description, .lessons-description, .subheading, .question-list, .accordion, .interface-sketch, .storyboard-image, .personas-container-1, .personas-container-2"
+    ".context-description, .interface-description, .interview-description, .personas-description, .storyboard-description, .lessons-description, .subheading, .question-list, .accordion, .interface-sketch, .storyboard-image, .personas-container-1, .personas-container-2, .website-image"
   );
   contentElements.forEach((element) => contentObserver.observe(element));
 

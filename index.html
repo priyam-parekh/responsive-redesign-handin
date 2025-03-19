@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personas & Storyboarding</title>
+    <title>Responsive Redesign</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,333 +15,421 @@
   <body>
     <div class="container">
       <div class="text-content">
-        <span class="personas text-mask">personas</span>
-        <span class="ampersand text-mask">&</span>
-        <span class="storyboarding text-mask">storyboarding</span>
+        <span class="responsive-redesign text-mask">responsive</span><br />
+        <span class="responsive-redesign text-mask">redesign</span>
       </div>
       <div class="portfolio-content">
-        <h1 class="context-title">context</h1>
+        <h1 class="intro-title">intro</h1>
         <p class="context-description">
-          This page explores the usability and overall user experience of a
-          <em>microwave interface</em> found in a shared dorm space
+          The <i>Friends of Benson Park</i> website plays an important role in
+          providing information about my local park—including events, community
+          involvement, and more. However, the website has a plethora of
+          accessibility issues that makes it difficult to navigate for all users
         </p>
         <p class="context-description">
-          Through real-life observations and 3 user interviews, the goal was to
-          identify usability issues, understand user behavior, and create
-          personas that relate to the perceptions of the microwave's interface
+          This project focuses on improving the usability, accessibility, and
+          design of the website while maintaining the original content and
+          structure
         </p>
       </div>
       <section class="interface-section">
         <div class="interface-content">
-          <h1 class="interface-title">interface</h1>
+          <h1 class="interface-title">context</h1>
           <p class="interface-description">
-            The project is focused around a simple microwave button interface in a
-            suite common area
+            The Friends of Benson Park is my hometown's non-profit organization.
+            It aims to conserve the park's history and trails. The website's
+            main purpose is to allow people to get involved and learn more about
+            what the Friends of Benson Park do to keep the park open to all
+            visitors and residents.
           </p>
-          <p class="interface-description">
-            The microwave is in a public space and is used by a lot of people,
-            making it an ideal interface for observation
-          </p>
-          <img src="images/microwave-sketch.png" alt="Microwave interface sketch: This
-          microwave interface is attempting to allow the user to effectively
-          use the microwave's functionality. This includes pre-set settings and
-          the ability to manually microwave your items using the Start +30 Sec
-          button. The microwave also includes a small LCD screen to allow the user
-          to view the time remaining and set the microwave's settings. The
-          microwave contains a small discrete button below the buttons which acts
-          as the door release mechanism." class="interface-sketch image-hover" />
-        </div>
-      </section>
-      <section class="interview-section">
-        <div class="interface-content">
-          <h1 class="interview-title">interview</h1>
-          <p class="interview-description">
-            3 college students were observed and interviewed for their usage of
-            the microwave interface
-          </p>
-          <h2 class="subheading">questions</h2>
-          <ul class="question-list">
-            <li>When do you typically use the microwave interface?</li>
-            <li>How often do you use it?</li>
-            <li>
-              How did you expect it to work before you used it the first time?
-            </li>
-            <li>How do you start the microwave?</li>
-            <li>What do you do to stop the microwave before the timer ends?</li>
-            <li>What features do you use the most often?</li>
-            <li>
-              Have you had trouble understanding the functionality of the buttons?
-            </li>
-            <li>
-              How effective is the screen for configuring settings and
-              viewing the timer?
-            </li>
-            <li>
-              Do you prefer microwaves with dials, buttons, or a touchscreen?
-            </li>
-            <li>
-              What challenges do you encounter when using the microwave interface?
-            </li>
-          </ul>
-          <h2 class="subheading">observations</h2>
-          <ul class="question-list">
-            <li>
-              Users had difficulty opening the microwave using the button because
-              it was hard to press, which resulted in the door being opened
-              abruptly.
-            </li>
-            <li>
-              Users had to press buttons multiple times for them to register
-            </li>
-            <li>
-              Buttons had no tactical feedback, making it harder to know whether
-              the button registered
-            </li>
-            <li>
-              Users often just pressed the start button instead of using the other
-              functionality and buttons
-            </li>
-            <li>
-              When the other preset functionality was used, users were unsure about how
-              it differed from the manual settings
-            </li>
-            <li>
-              Users often had to view the timer clock up close because it was too
-              small
-            </li>
-          </ul>
-          <h2 class="subheading">interview results</h2>
-          <div class="accordion">
-            <div class="accordion-item">
-              <button class="accordion-button">
-                When do you typically use the microwave interface?
-              </button>
-              <div class="accordion-content">
-                <p>
-                  All users primarily use the microwave for reheating leftovers, making quick meals, or heating frozen snacks. They rely on it when they need something fast and convenient, often using it between classes to eat a hot meal.
-                </p>
-              </div>
+          <h2 class="subheading">
+            current website
+            <a
+              href="https://friendsofbensonpark.org/"
+              target="_blank"
+              class="link-emoji"
+              >🔗</a
+            >
+          </h2>
+          <div class="website-images-container">
+            <div class="image-row">
+              <img
+                src="images/fobp-1.png"
+                alt="Friends of Benson Park website screenshot 1"
+                class="website-image"
+              />
+              <img
+                src="images/fobp-2.png"
+                alt="Friends of Benson Park website screenshot 2"
+                class="website-image"
+              />
             </div>
-
-            <div class="accordion-item">
-              <button class="accordion-button">How often do you use it?</button>
-              <div class="accordion-content">
-                <p>
-                  Two users use the microwave almost daily, either for meals or snacks. One user uses it a few times a week for reheating leftovers.
-                </p>
-              </div>
+            <div class="image-row">
+              <img
+                src="images/fobp-3.png"
+                alt="Friends of Benson Park website screenshot 3"
+                class="website-image"
+              />
+              <img
+                src="images/fobp-4.png"
+                alt="Friends of Benson Park website screenshot 4"
+                class="website-image"
+              />
             </div>
-
-            <div class="accordion-item">
-              <button class="accordion-button">
-                How did you expect it to work before you used it the first time?
-              </button>
-              <div class="accordion-content">
-                <p>
-                  Two users assumed the microwave would have a pull handle instead of a push-button release mechanism. They found this hard to fully press, resulting in the door being opened abruptly.
-                </p>
-                <p>
-                  One user assumed the button functions would be more intuitive
-                  and clearly labeled.
-                </p>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <button class="accordion-button">
-                How do you start the microwave?
-              </button>
-              <div class="accordion-content">
-                <p>
-                  Two users always use the "Start +30 Sec" button instead of manually entering time because it's the quickest and easiest option.
-                </p>
-                <p>
-                 One user prefers entering the time manually using the keypad for frozen meals.
-                </p>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <button class="accordion-button">
-                What do you do to stop the microwave before the timer ends?
-              </button>
-              <div class="accordion-content">
-                <p>
-                  Two users press the "Pause/Off" button but were initially unsure if it paused or canceled the current timer/settings. 
-                </p>
-                <p>
-                  Another user prefers opening the door to stop it because they are accustomed to doing this with other microwaves.
-                </p>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <button class="accordion-button">
-                What features do you use the most often?
-              </button>
-              <div class="accordion-content">
-                <p>
-                  All users rely on the "Start +30 Sec" button as their primary
-                  method of using the microwave
-                </p>
-                <p>
-                  One user has tried preset buttons like "Dinner Plate" or "Reheat", but they don't always use them because it's unclear how they can adjust cooking time or the power level.
-                </p>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <button class="accordion-button">
-                Have you had trouble understanding the functionality of the
-                buttons?
-              </button>
-              <div class="accordion-content">
-                <p>
-                  All users found certain buttons confusing, especially the preset options. Some were not sure how preset settings like "Popcorn" or "Defrost" differed from manually setting a time. This led all the users to avoid using the preset options altogether.
-                </p>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <button class="accordion-button">
-                How effective is the screen for configuring settings and
-                viewing the timer?
-              </button>
-              <div class="accordion-content">
-                <p>
-                  All users found the screen too small and difficult to read
-                  unless they were standing very close.
-                  </p>
-                  <p>
-                   One user mentioned that they had to move closer to check the timer—having difficulty distinguishing similar-looking numbers on the display.
-                </p>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <button class="accordion-button">
-                Do you prefer microwaves with dials, buttons, or a touchscreen?
-              </button>
-              <div class="accordion-content">
-                <p>
-                  Two users prefer buttons, but they want them to be easier to press.
-                </p>
-                <p>
-                  One user prefers a touchscreen for a more intuitive and
-                  easy-to-use interface. They wanted an interface that was similar to other devices they use like their phone or tablet.
-                </p>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <button class="accordion-button">
-                What challenges do you encounter when using the microwave
-                interface?
-              </button>
-              <div class="accordion-content">
-                <p>
-                  All users found the buttons difficult to press, requiring
-                  multiple attempts.
-                </p>
-                <p>
-                  Two users struggled with the door release button, expecting and preferring a handle instead.
-                </p>
-                <p>All users had difficulty reading the small display.</p>
-              </div>
+            <div class="image-row">
+              <img
+                src="images/fobp-5.png"
+                alt="Friends of Benson Park website screenshot 5"
+                class="website-image"
+              />
             </div>
           </div>
-        </div>
-      </section>
-      <section class="personas-section">
-        <div class="interface-content">
-          <h1 class="personas-title">personas</h1>
-          <p class="personas-description">
-            Based on the interviews and observations, 2 personas were created to
-            represent the primary users of the microwave interface—describing what
-            users think, feel, say, and do
+          <h2 class="subheading">problems with the current design</h2>
+          <p class="context-description">
+            The current website was evaluated using 4 criteria: efficiency,
+            learnability, memorability, and the effectiveness of its conceptual
+            model
           </p>
-          <h2 class="subheading">frustrated food warmer</h2>
-          <div class="personas-container-1">
-            <img
-              src="images/persona-1.png"
-              alt="Persona 1: A visualization of the first user persona (frustrated food warmer) based on interview findings"
-              class="persona-image image-hover"
-            />
-            <div class="persona-text">
-              <p class="persona-detail">
-                <strong>Brief Description:</strong> John is a busy college student
-                who just wants to quickly heat up his food.
-              </p>
-              <p class="persona-detail">
-                <strong>Interface Problems:</strong> John struggles with the
-                hard-to-press buttons, unclear door release mechanism, and small
-                screen, making microwaving food incredibly frustrating.
-              </p>
-              <p class="persona-detail">
-                <strong>Why This Persona Represents Users:</strong> John
-                represents users who prioritize speed and simplicity but face
-                usability challenges that make the microwave harder to use than expected.
-              </p>
+          <p class="context-description">
+            Furthermore, the site was analyzed with the WebAIM WAVE tool to
+            detect accessibility issues pertaining to the text and backround
+            contrast, voice-over capabilities, and errors
+          </p>
+          <table class="problems-table content-visible">
+            <tr>
+              <th>Issue Category</th>
+              <th>Usability Issues</th>
+              <th>Explanation</th>
+            </tr>
+            <tr>
+              <td>Efficiency</td>
+              <td>
+                <ul>
+                  <li>Unclear hierarchy of buttons</li>
+                  <li>Inefficient navigation structure</li>
+                  <li>Important information is hidden in sections</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>
+                    The "Donate" and "Memberships" buttons (call to action)
+                    compete to get the user's attention
+                    <ul>
+                      <li>Users might hesitate about which button to click</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Users must scroll extensively to find key content like
+                    events and trails
+                  </li>
+                  <li>
+                    Donation impact and trail information sections appear far
+                    down the page
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Learnability</td>
+              <td>
+                <ul>
+                  <li>
+                    Lack of clear visual differentiation between different
+                    sections
+                  </li>
+                  <li>Text readability issues</li>
+                  <li>Illegible form fields</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>
+                    The site lacks visual distinction between each of the
+                    sections
+                    <ul>
+                      <li>
+                        Sections like "Family Fun Day Photos" and "Here's What's
+                        New" make it difficult for a user to understand the
+                        organization
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    The text overlays on the background images ("The Friends of
+                    Benson Park", etc.) lack sufficient contrast, making it
+                    difficult to read
+                  </li>
+                  <li>
+                    The form fields are difficult to read because of
+                    insufficient contrast and text size
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Memorability</td>
+              <td>
+                <ul>
+                  <li>Subpar visual consistency</li>
+                  <li>Oversaturated background images</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>
+                    Multiple sections on the page use different font sizes and
+                    styles, making the site inconsistent
+                  </li>
+                  <li>
+                    The background images are too vibrant, making it
+                    overwhelming for the user to navigate the page/remember what
+                    section they are on
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Conceptual Model</td>
+              <td>
+                <ul>
+                  <li>Misaligned information priority</li>
+                  <li>Unintuitive navigation</li>
+                  <li>Unclear and weak visual hierarchy</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>
+                    Users would expect nonprofit websites to prominently feature
+                    a clear mission, donation details, and their impact on the
+                    community. However, on this page, important sections like
+                    donations and how to get involved are deeper down the page
+                    or are embedded in a small button
+                  </li>
+                  <li>
+                    Users expect navigation to guide them logically through the
+                    website's content; however, this website scatters key
+                    information throughout the page—forcing the user to scroll
+                    through the entire page
+                  </li>
+                  <li>
+                    Websites typically use consistent visual grouping, colors,
+                    and other distinctions to allow for clear sections. This
+                    website blends together photo galleries, recent news,
+                    events, etc. without sufficient visual hierarchy. Also, the
+                    saturated images make the website appear more overwhelming
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          <h2 class="subheading">analyzing WebAIM WAVE results</h2>
+          <p class="context-description">
+            I do agree with a majority of the WebAIM WAVE's analysis of the
+            website's accessibility problems
+          </p>
+
+          <p class="context-description">
+            For instance, I noticed that none of the images have alt-text, which
+            I also discovered when using voice-over on my Mac
+          </p>
+
+          <p class="context-description">
+            Furthermore, there are approximately 15 contrast errors due to the
+            white text on the saturated images, dark gray text on the light gray
+            background, along with the cherry red and white text combination
+          </p>
+
+          <p class="context-description">
+            In terms of both visual and accessibility standards, the Friends of
+            Benson Park website needs a major overhaul to fix the accessibility
+            issues
+          </p>
+          <h1 class="interface-title">the redesign</h1>
+          <p class="context-description">
+            Based on the usability evaluation and accessibility analysis, I
+            created a redesign that addresses these issues while maintaining the
+            website's core functionality
+          </p>
+          <h2 class="subheading">creating a visual design style guide</h2>
+          <p class="context-description">
+            To create a more cohesive and user-friendly experience, I created a
+            visual style guide to ensure consistency and accessibility
+          </p>
+          <p class="context-description">
+            The visual style guide includes the website's color palette,
+            typography, buttons, etc.
+          </p>
+          <div class="website-images-container">
+            <div class="image-row">
+              <img
+                src="images/style-guide.png"
+                alt="Visual design style guide showing color palette, typography, and UI components"
+                class="website-image single"
+              />
             </div>
           </div>
-          <h2 class="subheading">meal prepper</h2>
-          <div class="personas-container-2">
-            <div class="persona-text">
-              <p class="persona-detail">
-                <strong>Brief Description:</strong> Tyler is a meal planner who
-                wants to use the microwave's preset functions but finds them
-                incredibly unintuitive.
-              </p>
-              <p class="persona-detail">
-                <strong>Interface Problems:</strong> Tyler struggles with
-                confusing preset options, unreliable button responsiveness, and
-                accidentally reseting settings when manually adjusting the time.
-              </p>
-              <p class="persona-detail">
-                <strong>Why This Persona Represents Users:</strong> Tyler
-                represents users who want more control over microwaving food but
-                are frustrated by the unclear instructions and inconsistent button
-                feedback.
-              </p>
+          <h2 class="subheading">mockups</h2>
+          <p class="context-description">
+            In order to build and develop a responsive website, I created 3
+            mockups of the webpage: desktop, tablet, and mobile
+          </p>
+          <p class="context-description">
+            <strong>desktop</strong
+            ><a
+              href="https://www.figma.com/proto/pzLHmYdX1IRlmjmPMDOBGR/CS-1300-Responsive-Redesign?page-id=14%3A10&node-id=14-15&p=f&viewport=387%2C93%2C0.51&t=5VomxLXkzcbFhyvC-1&scaling=scale-down&content-scaling=fixed"
+              target="_blank"
+              class="link-emoji"
+              >🔗</a
+            >
+          </p>
+          <div class="website-images-container">
+            <div class="image-row">
+              <img
+                src="images/desktop-mockup.png"
+                alt="Desktop version mockup of the redesigned Friends of Benson Park website"
+                class="website-image single"
+              />
             </div>
-            <img
-              src="images/persona-2.png"
-              alt="Persona 2: A visualization of the second user persona (meal prepper) based on interview findings"
-              class="persona-image image-hover"
-            />
           </div>
-        </div>
-      </section>
-      <section class="storyboard-section">
-        <div class="interface-content">
-          <h1 class="storyboard-title">storyboard</h1>
-          <p class="storyboard-description">
-            A storyboard was created to visualize the user journey of the
-            microwave interface user from start to end
+          <p class="context-description">
+            <strong>tablet</strong
+            ><a
+              href="https://www.figma.com/proto/pzLHmYdX1IRlmjmPMDOBGR/CS-1300-Responsive-Redesign?page-id=14%3A11&node-id=14-259&p=f&viewport=161%2C72%2C0.81&t=an0MY01ClWvQhXER-1&scaling=scale-down&content-scaling=fixed"
+              target="_blank"
+              class="link-emoji"
+              >🔗</a
+            >
           </p>
-          <img
-            src="images/storyboard.png"
-            alt="Storyboard: A visual representation of the user journey when interacting with the microwave interface"
-            class="storyboard-image image-hover"
-          />
-        </div>
-      </section>
-      <section class="lessons-section">
-        <div class="interface-content">
-          <h1 class="lessons-title">lessons</h1>
-          <p class="lessons-description">
-            It was interesting to see how the microwave interface was used by different users
-            <br>
-            While being fairly simple, without clear instructions, the interface became difficult to use
-            <br>
-            <br>
-            Things I learned:
-          <ul class="question-list">
-            <li>Users prioritize speed over extra features: users want to quickly heat up their food and often overlook the extra features</li>
-            <li>Minor design flaws can lead to frustrated users: a small screen and hard-to-press buttons can lead to a bad user experience</li>
-            <li>Users want tactile feedback: buttons should have a clear click when pressed</li>
-          </ul>
+          <div class="website-images-container">
+            <div class="image-row">
+              <img
+                src="images/ipad-mockup.png"
+                alt="Tablet version mockup of the redesigned Friends of Benson Park website"
+                class="website-image single medium"
+              />
+            </div>
+          </div>
+          <p class="context-description">
+            <strong>phone</strong
+            ><a
+              href="https://www.figma.com/proto/pzLHmYdX1IRlmjmPMDOBGR/CS-1300-Responsive-Redesign?page-id=14%3A12&node-id=21-537&viewport=304%2C399%2C1.11&t=ldPBAKGO4bW8fFrd-1&scaling=scale-down&content-scaling=fixed"
+              target="_blank"
+              class="link-emoji"
+              >🔗</a
+            >
           </p>
+          <div class="website-images-container">
+            <div class="image-row">
+              <img
+                src="images/iphone-mockup.png"
+                alt="Mobile version mockup of the redesigned Friends of Benson Park website"
+                class="website-image single small"
+              />
+            </div>
+          </div>
+          <p class="context-description">
+            I then annotated each mockup with the key elements used and
+            different layout choices
+          </p>
+
+          <p class="context-description">
+            <strong>annotated desktop mockup</strong
+            ><a
+              href="https://drive.google.com/file/d/1iFwVcNkbS_pN-mScJwmVgrP0V9xhKHup/view?usp=sharing"
+              target="_blank"
+              class="link-emoji"
+              >🔗</a
+            >
+          </p>
+          <div class="website-images-container">
+            <div class="image-row">
+              <img
+                src="images/annotated-desktop.png"
+                alt="Annotated desktop version mockup of the redesigned Friends of Benson Park website"
+                class="website-image single"
+              />
+            </div>
+          </div>
+
+          <p class="context-description">
+            <strong>annotated tablet mockup</strong
+            ><a
+              href="https://drive.google.com/file/d/1iR9hQhXroq4qG-eHiYqSQAConyTF_cJc/view?usp=sharing"
+              target="_blank"
+              class="link-emoji"
+              >🔗</a
+            >
+          </p>
+          <div class="website-images-container">
+            <div class="image-row">
+              <img
+                src="images/annotated-tablet.png"
+                alt="Annotated tablet version mockup of the redesigned Friends of Benson Park website"
+                class="website-image single medium"
+              />
+            </div>
+          </div>
+
+          <p class="context-description">
+            <strong>annotated phone mockup</strong
+            ><a
+              href="https://drive.google.com/file/d/1JCI75PS16b0CZFbS7ZGchv9HkHGBmIUh/view?usp=sharing"
+              target="_blank"
+              class="link-emoji"
+              >🔗</a
+            >
+          </p>
+          <div class="website-images-container">
+            <div class="image-row">
+              <img
+                src="images/annotated-phone.png"
+                alt="Annotated mobile version mockup of the redesigned Friends of Benson Park website"
+                class="website-image single small"
+              />
+            </div>
+          </div>
+          <h2 class="subheading">
+            the new and improved website<a
+              href="https://priyam-parekh.github.io/redesigned-benson-park-website/"
+              target="_blank"
+              class="link-emoji"
+              >🔗</a
+            >
+          </h2>
+          <p class="context-description">
+            Using all that I've learned regarding the accessibility issues with
+            the current Friends of Benson Park website, I created a new website
+            that is more user-friendly, accessible, and visually appealing—all
+            while working on different screen sizes
+          </p>
+          <p class="context-description" style="text-align: center">
+            <a
+              href="https://priyam-parekh.github.io/redesigned-benson-park-website/"
+              target="_blank"
+              style="text-decoration: none; color: inherit"
+            >
+              <strong>try me</strong><span class="pointing-emoji">👇</span>
+            </a>
+          </p>
+          <div class="website-images-container" style="margin-top: -20px">
+            <div class="image-row">
+              <!-- Used website embedding from: @https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies -->
+              <iframe
+                src="https://priyam-parekh.github.io/redesigned-benson-park-website/"
+                title="Redesigned Friends of Benson Park website"
+                class="website-image single"
+                style="
+                  height: 800px;
+                  border: none;
+                  border-radius: 15px;
+                  width: 80%;
+                  margin: 0 auto;
+                "
+              ></iframe>
+            </div>
+          </div>
         </div>
       </section>
     </div>
