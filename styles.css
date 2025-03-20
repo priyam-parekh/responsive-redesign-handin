@@ -105,13 +105,13 @@ h1.lessons-title {
 }
 
 .portfolio-content {
-  min-height: 100vh;
+  min-height: auto;
   padding: 40px 80px;
   color: #fafcf0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-top: 80px;
+  padding-top: 40px;
   gap: 30px;
   max-width: 1400px;
   margin: 0;
@@ -135,7 +135,7 @@ h1.lessons-title {
 }
 
 .context-description {
-  font-size: 48px;
+  font-size: 35px;
   line-height: 1.3;
   font-weight: 300;
   max-width: 1400px;
@@ -146,6 +146,20 @@ h1.lessons-title {
 
 .context-description em {
   font-style: italic;
+}
+
+/* Center mockup headers */
+.mockup-header {
+  text-align: center;
+}
+
+.context-description strong {
+  font-weight: 700;
+}
+
+/* Center mockup headers */
+.context-description:has(strong:only-child) {
+  text-align: center;
 }
 
 .interface-content {
@@ -179,7 +193,7 @@ h1.lessons-title {
 }
 
 .interface-description {
-  font-size: 48px;
+  font-size: 35px;
   line-height: 1.3;
   font-weight: 300;
   max-width: 1400px;
@@ -603,6 +617,7 @@ h1.lessons-title {
   gap: 30px;
   justify-content: center;
   margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .image-row {
